@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #ffffff;
+    color: #999;
+}
+
+:root {
+    --primary-color: #0A4A82;
+    --dark-color: #0A4A82;
+    --light-color: #f4f4f4;
+}
