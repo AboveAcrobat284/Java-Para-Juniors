@@ -69,7 +69,7 @@ const ShowCase = () => {
                     <Title msn="LOS MEJORES EN EL CAMPO AUTODIDACTA" estilo={false} pequenio={false}></Title>
                 </H2Conteiner>
                 <ButtonConteiner>
-                    <Link to="/"><Button type={"btn btn-rounded"} value={"REGISTRARSE"} height={false} width={false} tamanio={false}></Button></Link>
+                    <Link to="/register"><Button type={"btn btn-rounded"} value={"REGISTRARSE"} height={false} width={false} tamanio={false}></Button></Link>
                 </ButtonConteiner>
             </ShowCaseConteiner>
         </>

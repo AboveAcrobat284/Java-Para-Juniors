@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Picture from '../atoms/Picture';
 import Button from '../atoms/Button';
@@ -33,7 +34,7 @@ const ShowCaseDown = () => {
             <ShowCaseConteiner>
                 <LeftContainer>
                     <TextLanding msn="Somos la mejor herramienta para aquellos autodidactas amantes de la programación." estilo={true} pequenio={true}></TextLanding>
-                    <Button type={"btn btn-rounded"} value={"¡REGISTRARSE ES GRATIS!"} height={true} width={true} tamanio={true}></Button>
+                    <Link to={"/register"}><Button type={"btn btn-rounded"} value={"¡REGISTRARSE ES GRATIS!"} height={true} width={true} tamanio={true}></Button></Link>
                 </LeftContainer>
                 <PictureConteiner>
                     <Picture src={"src/assets/img/Captura de pantalla 2022-11-03 230857.png"} height={false} width={false}></Picture>

@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Landing from '../pages/Landing';
 import NotFound from '../pages/NotFound';
 import Login from '../pages/Login';
+import FormRegister from '../components/organism/FormRegister';
 
 function App() {
     return ( 
@@ -10,6 +11,7 @@ function App() {
                     <Route path="/" element={<Landing/>} />
                     <Route path="/*" element={<NotFound/>} />
                     <Route path="/login" element={<Login/>} />
+                    <Route path="/register" element={<FormRegister/>} />
                 </Routes>
         </BrowserRouter>   
      );

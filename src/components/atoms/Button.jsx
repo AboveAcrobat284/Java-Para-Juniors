@@ -22,8 +22,8 @@ const StyledButton = styled.button`
     width: ${props => props.width2 ? '212px' : '212px'};
     font-size: ${props => props.tamanio2 ? '12px' : '16px'};
 
-    height: ${props => props.height3 ? '61px' : '41px'};
-    width: ${props => props.width3 ? '402px' : '212px'};
+    height: ${props => props.height3 ? '61px' : '52px'};
+    width: ${props => props.width3 ? '402px' : '190px'};
     font-size: ${props => props.tamanio3 ? '30px' : '16px'};
 
     
