@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Button from '../atoms/Button';
 
@@ -34,7 +35,7 @@ const TabHead = () => {
         <>
             <TabsConteiner>
                 <TabsConteinerButton>
-                    <Button type={"btn btn-rounded"} value={"INICIAR SESIÓN"} height={true} width={true} tamanio={true}></Button>
+                    <Link to={"/login"}><Button type={"btn btn-rounded"} value={"INICIAR SESIÓN"} height={true} width={true} tamanio={true}></Button></Link>
                 </TabsConteinerButton>
             </TabsConteiner>
         </>

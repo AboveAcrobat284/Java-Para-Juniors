@@ -22,12 +22,16 @@ const StyledButton = styled.button`
     width: ${props => props.width2 ? '212px' : '212px'};
     font-size: ${props => props.tamanio2 ? '12px' : '16px'};
 
+    height: ${props => props.height3 ? '61px' : '41px'};
+    width: ${props => props.width3 ? '402px' : '212px'};
+    font-size: ${props => props.tamanio3 ? '30px' : '16px'};
+
     
 `;
 
-function Button({ type, value, height, width, tamanio, height2, width2, tamanio2}) {
+function Button({ type, value, height, width, tamanio, height2, width2, tamanio2, height3, width3, tamanio3}) {
     return ( 
-        <StyledButton type={type} height={height} width={width} tamanio={tamanio}  height2={height2} width2={width2} tamanio2={tamanio2}>{value}</StyledButton>
+        <StyledButton type={type} height={height} width={width} tamanio={tamanio}  height2={height2} width2={width2} tamanio2={tamanio2 } height3={height3} width3={width3} tamanio3={tamanio3 }>{value}</StyledButton>
      );
 }
 

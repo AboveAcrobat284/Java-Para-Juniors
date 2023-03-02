@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Picture from '../atoms/Picture';
 import Title from '../atoms/Title';
@@ -68,7 +69,7 @@ const ShowCase = () => {
                     <Title msn="LOS MEJORES EN EL CAMPO AUTODIDACTA" estilo={false} pequenio={false}></Title>
                 </H2Conteiner>
                 <ButtonConteiner>
-                    <Button type={"btn btn-rounded"} value={"REGISTRARSE"} height={false} width={false} tamanio={false}></Button>
+                    <Link to="/"><Button type={"btn btn-rounded"} value={"REGISTRARSE"} height={false} width={false} tamanio={false}></Button></Link>
                 </ButtonConteiner>
             </ShowCaseConteiner>
         </>

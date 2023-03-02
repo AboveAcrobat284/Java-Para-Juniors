@@ -6,11 +6,11 @@ font-style: normal;
 font-weight: 700;
 line-height: 37px;
 margin-left:10px;
-color: ${props => props.estilo ? '#000' : '#fff'};
+color: ${props => props.estilo ? '#0F2F4B' : '#fff'};
 font-size: ${props => props.pequenio ? '32px' : '20px'};
 `;
 
-function Title({msn, estilo , pequenio}) {
+function Title({msn, estilo , pequenio,pequenios}) {
     return ( 
         <StyledTitle estilo={estilo} pequenio={pequenio}>{msn}</StyledTitle>
      );
