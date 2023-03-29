@@ -18,7 +18,7 @@ function CardTwoTC({ img, subtitle, ruta, price, info }) {
             <Button op={'ButtonDescription'} value={subtitle}></Button>
             <ShowCase op={'ButtonsEE'} item={
             <>
-            <Button op={'ButtonsEE'} value={"Editar"}></Button>
+            <Link to={"/edcl"}><Button op={'ButtonsEE'} value={"Editar"}></Button></Link>
             <Button op={'ButtonsEE'} value={"Eliminar"}></Button>
             </>
             }></ShowCase>

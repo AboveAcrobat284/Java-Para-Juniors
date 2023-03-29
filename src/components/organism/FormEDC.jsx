@@ -49,7 +49,7 @@ function FormEDC() {
                             <Label op={3} value={"src/assets/img/Eliminar.svg"} hf={"file"}></Label>
                             <Text msn={"Guardar cambios"} op={'TextPDC'}></Text>
                             <Input type={"file"} op={2} id={"file"}></Input>
-                            <Label op={3} value={"src/assets/img/Vector (1).svg"} hf={"file"}></Label>
+                            <Link to={"/hometutor"}><Label op={3} value={"src/assets/img/Vector (1).svg"} hf={"file"}></Label></Link>
                         </>
                     }></ShowCase>
 

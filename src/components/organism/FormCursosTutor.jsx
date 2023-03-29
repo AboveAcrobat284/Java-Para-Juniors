@@ -215,7 +215,7 @@ function FormCursosTutor() {
                                             }></ShowCase>
                                             <ShowCase op={'HeadIcon'} item={
                                                 <>
-                                                    <Link to={"/"}><Picture op={'Publicar'} src={'src/assets/img/Publicar.svg'}></Picture></Link>
+                                                    <Link to={"/pdc"}><Picture op={'Publicar'} src={'src/assets/img/Publicar.svg'}></Picture></Link>
                                                 </>
                                             }></ShowCase>
                                         </>

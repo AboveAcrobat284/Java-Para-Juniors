@@ -214,7 +214,7 @@ function FormClasesTutor() {
                                             }></ShowCase>
                                             <ShowCase op={'HeadIcon'} item={
                                                 <>
-                                                    <Link to={"/"}><Picture op={'Publicar'} src={'src/assets/img/Publicar.svg'}></Picture></Link>
+                                                    <Link to={"/pdcl"}><Picture op={'Publicar'} src={'src/assets/img/Publicar.svg'}></Picture></Link>
                                                 </>
                                             }></ShowCase>
                                         </>

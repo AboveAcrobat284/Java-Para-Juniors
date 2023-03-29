@@ -41,7 +41,7 @@ function FormPDCL() {
 
                             <ShowCase op={'BtnAlone'} item={
                                 <>
-                                    <Link to={"/"}><Button op={'BtnAlone'} value={"PUBLICAR"}></Button></Link>
+                                    <Link to={"/hometutor"}><Button op={'BtnAlone'} value={"PUBLICAR"}></Button></Link>
                                 </>
                             }></ShowCase>
                         </>

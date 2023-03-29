@@ -32,7 +32,7 @@ function FormEDCL() {
                             <Label op={1} value={"src/assets/img/Documentos.svg"} hf={"file"}></Label>
                             <Text msn={"Publicar"} op={'TextPDC'}></Text>
                             <Input type={"file"} op={2} id={"file"}></Input>
-                            <Label op={3} value={"src/assets/img/Vector.svg"} hf={"file"}></Label>
+                            <Link to={"/hometutor"}><Label op={3} value={"src/assets/img/Vector.svg"} hf={"file"}></Label></Link>
                         </>
                     }></ShowCase>
 
@@ -55,7 +55,7 @@ function FormEDCL() {
                             <Label op={3} value={"src/assets/img/Documentos.svg"} hf={"file"}></Label>
                             <Text msn={"Guardar cambios"} op={'TextPDC'}></Text>
                             <Input type={"file"} op={2} id={"file"}></Input>
-                            <Label op={3} value={"src/assets/img/Vector (1).svg"} hf={"file"}></Label>
+                            <Link to={"/hometutor"}><Label op={3} value={"src/assets/img/Vector (1).svg"} hf={"file"}></Label></Link>
                         </>
                     }></ShowCase>
 
