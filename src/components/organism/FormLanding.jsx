@@ -5,14 +5,13 @@ import Bar from "../molecules/Bar";
 import ShowCase from "../molecules/ShowCase";
 import Text from "../atoms/Text";
 
-
 function FormLanding() {
     return (
         <>
             <Bar op={1} item={<><Link to={"/logina"}><Button op={1} value={"INICIAR SESIÓN"}></Button></Link></>}></Bar>
             <ShowCase op={1} item={
                 <>
-                    <Picture src={"src/assets/img/logo-JR 3.svg"} op={1}></Picture>
+                    <Picture src={"public/img/logo-JR 3.svg"} op={1}></Picture>
                     <Text op={1} msn={"!Si puedes imaginarlo puedes programarlo!"}></Text>
                     <Text op={2} msn={"LOS MEJORES EN EL CAMPO AUTODIDACTA"}></Text>
                     <Link to={"/registera"}><Button op={2} value={"REGISTRARSE"}></Button></Link>
