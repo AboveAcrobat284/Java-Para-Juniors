@@ -42,20 +42,22 @@ function FormLogina() {
                                     }></ShowCase>
                                 </>
                             }></ShowCase>
-                            <Text msn={"Usuario o correo electronico"} op={9}></Text>
-                            <Input type={"mail"} op={1}></Input>
-                            <Text msn={"Contraseña"} op={9}></Text>
-                            <Input type={"password"} op={1}></Input>
-                            <ShowCase op={'BtnAlone'} item={
-                                <>
-                                    <Link to={"/homeacademico"}><Button op={'BtnAlone'} value={"Iniciar sesión"}></Button></Link>
-                                </>
-                            }></ShowCase>
-                            <ShowCase op={'BtnAlone'} item={
-                                <>
-                                    <Link to={"/"}><Button op={'BtnAlone'} value={"Cancelar"}></Button></Link>
-                                </>
-                            }></ShowCase>
+                           
+                                <Text msn={"Usuario o correo electronico"} op={9}></Text>
+                                <Input type={"mail"} op={1} name={"userName"}></Input>
+                                <Text msn={"Contraseña"} op={9}></Text>
+                                <Input type={"password"} op={1} name={"userPassword"}></Input>
+                                <ShowCase op={'BtnAlone'} item={
+                                    <>
+                                        <Link to={"/homeacademico"}><Button op={'BtnAlone'} value={"Iniciar sesión"}></Button></Link>
+                                    </>
+                                }></ShowCase>
+                                <ShowCase op={'BtnAlone'} item={
+                                    <>
+                                        <Link to={"/"}><Button op={'BtnAlone'} value={"Cancelar"}></Button></Link>
+                                    </>
+                                }></ShowCase>
+                           
                         </>
                     }></ShowCase>
 

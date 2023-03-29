@@ -63,9 +63,9 @@ const StyledInput = styled.input`
 `;
 
 //Para que este componente sea reutilizable - No se puede llamar igual que el elemento del styled
-function Input({ type, op, id}) {
+function Input({ type, op, id,name}) {
     return (
-        <StyledInput type={type} op={op} id={id} />
+        <StyledInput type={type} op={op} id={id} name={name} />
     );
 }
 
