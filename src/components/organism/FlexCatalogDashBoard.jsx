@@ -8,23 +8,29 @@ function FlexCatalogDashBoard() {
         {
             id: 1,
             category: 'Transacciones',
-            image: 'src/assets/img/Frame 863.svg',
+            image: 'Ganancias totales',
             title: 'Transacciones',
-            description: 'Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems.​​'
+            description: 'Ganancias mensuales',
+            description2: 'Cursos vendidos',
+            description3: 'Claes vendidas'
         },
         {
             id: 2,
             category: 'Cursos',
-            image: 'src/assets/img/Frame 530.svg',
+            image: 'Academicos desuscriptos',
             title: 'Cursos',
-            description: 'Kotlin es un lenguaje de programación de tipado estático que corre sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript.'
+            description: 'Academicos suscritos',
+            description2: 'Ganancias mensuales',
+            description3: 'Ganancias totales'
         },
         {
             id: 3,
             category: 'Clases',
-            image: 'src/assets/img/Frame 514.svg',
+            image: 'Academicos desuscriptos',
             title: 'Clases',
-            description: 'Struts es un framework desarrollado para construir aplicaciones web Java desarrolladas en base a la filosofía y metodología de trabajo de MVC.'
+            description: 'Academicos suscritos',
+            description2: 'Ganancias mensuales',
+            description3: 'Ganancias totales'
         },
     ];
 
@@ -70,7 +76,7 @@ function FlexCatalogDashBoard() {
             <StyledFlexCatalog>
                 {
                     articles.map(article => (
-                        <CardTwo key={article.id} img={article.image} subtitle={article.title} ruta="#" price={article.price} info={article.description} />
+                        <CardTwo key={article.id} img={article.image} subtitle={article.title} ruta="#" price={article.description2} price2={article.description3} info={article.description} />
                     ))
                 }
 

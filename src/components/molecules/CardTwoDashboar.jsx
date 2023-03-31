@@ -2,16 +2,74 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Button from '../atoms/Button';
+import '../../assets/styles/dashboard.css'
 
-function CardTwoDashboar({ img, subtitle, ruta, price, info }) {
+
+function CardTwoDashboar({ img, subtitle, ruta, price,price2, info,info2 }) {
     return (
         <StyledCardTwo >
-            <div className="contenido">
-                <h3>{subtitle}</h3>
+            <div class="caja-padre">
+
+
+                <div class="contenedor">
+                    <h2>{subtitle}</h2>
+
+                    <div class="skills">
+
+                        <div class="detalles">
+                            <span>{info}</span>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="menu">
+                            <div id="html-menu"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills">
+
+                        <div class="detalles">
+                            <span>{img}</span>
+                            <span>20%</span>
+                        </div>
+
+                        <div class="menu">
+                            <div id="css-menu"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills">
+
+                        <div class="detalles">
+                            <span>{price}</span>
+                            <span>40%</span>
+                        </div>
+
+                        <div class="menu">
+                            <div id="js-menu"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills">
+
+                        <div class="detalles">
+                            <span>{price2}</span>
+                            <span>10%</span>
+                        </div>
+
+                        <div class="menu">
+                            <div id="angular-menu"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </div>
-            <figure className='cursor_logo'>
-                <img src={img} alt="Foto del inmueble" />
-            </figure>
         </StyledCardTwo>
     );
 }
